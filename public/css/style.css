@@ -1,0 +1,174 @@
+body{
+	background-image: url(../img/fondo1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+div.card{
+	border-style: solid;
+	border-radius: 10px;
+	background-color: RGBA(50,50,50,0.5);
+	opacity: 0,5;
+	color: black; /*letras*/
+	margin: 50px;
+	width: 550px;
+	display: block;
+	margin:auto;
+}
+
+.stylefooter{
+	display: block;
+	margin: auto;
+	width: 500px;
+	height: 100px;
+	bottom: 0%;
+}
+
+.navbar{
+	background-color: #F5B041;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-radius: 10px;
+}
+
+/* Estilo Box Inicio de sesion*/
+
+.box{
+ 	margin: 0 auto;
+	text-align: center;
+}
+
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type = "rut"],.box input[type = "password"]{
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+	width: 50%;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "rut"]:focus,.box input[type = "password"]:focus{
+  width: 75%;
+	display: block;
+	position: relative;
+  border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+  background: none;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+/* Botones */
+
+.boton{
+		display: block;
+		margin: auto;
+		background-color: #4873D9;
+		color: #ffffff;
+		border-color: #000000;
+		border-radius: 20px;
+		height: 50px;
+		width: 300px;
+		text-align: center;
+}
+
+.boton:hover{
+	background: #F5B041;
+}
+
+.boton-is{
+		position:absolute;
+		right: 12%;
+		background-color: #F5B041;
+		color: #ffffff;
+		border-radius: 10px;
+}
+
+.boton-is2{
+		color: #ffffff;
+		margin-left: 10px;
+		margin-right: 10px;
+}
+
+.btn-hrs{
+	background-color: #589B45;
+	color: #ffffff;
+	width: 200px;
+	margin: auto;
+}
+
+.btn-hrs:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/* Estilo imagen hr. especial*/
+
+.hr-especial{
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+
+/*	Estilo Tablas	*/
+
+table{
+	border-collapse: collapse;
+	border: 1px solid black;
+	color: #ffffff ;
+	text-align: center;
+}
+
+td{
+	height: 50px;
+	border: 1px solid black;
+	border-color: #F5B041;
+}
+
+th{
+	border: 1px solid black;
+  border-color: #F5B041;
+}
+
+table.a{
+	color: #ffffff ;
+	table-layout: fixed;
+	width: 90%;
+}
+
+
+
+/**/
+
+.in-usuario{
+	color: #ffffff;
+	width: 300px;
+}
