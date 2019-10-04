@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <br><br><br>
 
 <div class="text-center">
@@ -41,12 +42,13 @@
 </table>
 
 <!--Formulario para actualizar datos-->
-<form class="formulario text-center" hidden action='{{route('adm.modificar')}}' method="post">
+<form class="formulario text-center" hidden action="{{route('adm.modificar')}}" method="post">
       {{ csrf_field() }}
       <input type="hidden" id="temp_id" name="id_usuario" value="" required>
       <br><br>
       <h4 class="text-center" style="color: #ffffff;">Nuevos datos a ingresar</h4>
       <br>
+
       <fieldset class="form-group in-usuario mx-auto d-block">
         <label>Nombre</label>
         <input type="text" class="form-control" name="nombre_usuario" placeholder="" required>
@@ -70,6 +72,12 @@
       <button type="submit" class="btn btn-primary mx-auto d-block">Modificar</button>
 </form>
 
+<br><br>
+
+<div class="text-center">
+  <a class="btn btn-lg boton" href="{{route('home')}}">Volver</a>
+</div>
+
 <!--Script para la modificación de los datos-->
 
 <script type="text/javascript">
@@ -78,11 +86,6 @@
       $('.formulario').removeAttr("hidden");
 
       $('#temp_id').val(id);
-
-      var asd = $('#temp_id').attr("value");
-      console.log(asd);
-      console.log(id);
-
     });
 
 </script>

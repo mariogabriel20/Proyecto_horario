@@ -50,6 +50,21 @@ class HomeController extends Controller{
 				return view('labs.sistemas');
 		}
 
+		public function login(Request $request){
+			/*Id recibido por jQuery*/
+			$id = $request->id_usuario;
+			$nombre = $request->nombre_usuario;
+			$apellido = $request->apellido_usuario;
+			$rut = $request->rut_usuario;
+			$correo = $request->correo_usuario;
+
+			$rs = User::where('id', $id)->update(['name' => $nombre,'lastname' => $apellido,'rut' => $rut,'email' => $correo]);
+
+			$users = User::all();
+			$i = 1;
+			return view('admin', ['users' => $users, 'cont' => $i]);
+		}
+
 		public function modificar_usuario(Request $request){
 			/*Id recibido por jQuery*/
 			$id = $request->id_usuario;

@@ -36,7 +36,7 @@
 
       	@yield('content')
 
-       <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
 
 			<footer>
 				<div>

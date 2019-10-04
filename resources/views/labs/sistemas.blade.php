@@ -17,96 +17,109 @@
 	<br>
 	<tr>
 		<td>08:00 - 09:30</td>
-		<td><button type="button" id="R-L1" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="R-M1" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="R-W1" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="R-J1" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="R-V1" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L1" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M1" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W1" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J1" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V1" class="btn btn-hrs">Disponible</button></td>
 		<td rowspan="10"><a><img class="stylefooter hr-especial" src="../img/hr-especial.png"></a></td>
 		<td rowspan="10"><a><img class="stylefooter hr-especial" src="../img/hr-especial.png"></a></td>
 	</tr>
 
 	<tr>
 		<td>09:40 - 11:10</td>
-		<td><button type="button" id="R-L2" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M2" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W2" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J2" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V2" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L2" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M2" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W2" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J2" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V2" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
 		<td>11:20 - 12:50</td>
-		<td><button type="button" id="L3" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M3" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W3" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J3" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V3" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L3" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M3" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W3" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J3" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V3" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
 		<td>13:00 - 14:30</td>
-		<td><button type="button" id="L4" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M4" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W4" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J4" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V4" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L4" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M4" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W4" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J4" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V4" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
 		<td>14:45 - 16:15</td>
-		<td><button type="button" id="L5" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M5" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W5" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J5" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V5" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L5" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M5" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W5" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J5" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V5" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
 		<td>16:20 - 17:50</td>
-		<td><button type="button" id="L6" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M6" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W6" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J6" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V6" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-L6" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M6" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W6" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J6" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V6" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
-		<td>18:00 - 19:30</td>
-		<td><button type="button" id="L7" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M7" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W7" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J7" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V7" class="btn btn-hrs">Disponible</button></td>
+		<td>17:55 - 19:25</td>
+		<td><button type="button" id="S-L7" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M7" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W7" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J7" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V7" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
-		<td>19:40 - 21:10</td>
-		<td><button type="button" id="L8" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M8" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W8" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J8" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V8" class="btn btn-hrs">Disponible</button></td>
+		<td>19:30 - 21:00</td>
+		<td><button type="button" id="S-L8" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M8" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W8" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J8" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V8" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
-		<td>21:20 - 22:50</td>
-		<td><button type="button" id="L9" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M9" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W9" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J9" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V9" class="btn btn-hrs">Disponible</button></td>
+		<td>21:05 - 22:35</td>
+		<td><button type="button" id="S-L9" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M9" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W9" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J9" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V9" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 
 	<tr>
-		<td>23:00 - 24:00</td>
-		<td><button type="button" id="L10" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="M10" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="W10" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="J10" class="btn btn-hrs">Disponible</button></td>
-		<td><button type="button" id="V10" class="btn btn-hrs">Disponible</button></td>
+		<td>22:40 - 00:10</td>
+		<td><button type="button" id="S-L10" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-M10" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-W10" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-J10" class="btn btn-hrs">Disponible</button></td>
+		<td><button type="button" id="S-V10" class="btn btn-hrs">Disponible</button></td>
 	</tr>
 </table>
 
+<script type="text/javascript">
+	$(document).on('click', '.btn-hrs', function(){
+		var id = $(this).attr('id');
+		if ($('#'+id).html() == 'Disponible') {
+			$('#'+id).html('Ocupado');
+	      	$('#'+id).css('background-color','#FF3600');
+		}
+		else{
+			$('#'+id).html('Disponible');
+	      	$('#'+id).css('background-color','#589B45');
+	    }
+    });
+</script>
 
 @endsection

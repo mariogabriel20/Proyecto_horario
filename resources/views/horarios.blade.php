@@ -18,4 +18,12 @@
 	<p style="color: #ffffff; text-align: center;">Horario Especial: Para solicitar un laboratorio en estos horarios
 	debes acercarte directamente con el encargado de laboratorios</p>
 
+	<br>
+
+	<div class="text-center">
+      <a class="btn btn-lg boton" href="{{route('home')}}">Volver</a>
+    </div>
+    
+    <br>
+
 @endsection

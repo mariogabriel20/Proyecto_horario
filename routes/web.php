@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-/*Route::get('/Ruta que se vera en el sitioweb', 'Controlador usado@funcion que tiene el controlador')->name('hnombre de la vista');*/
+/*Route::get('/Ruta que se vera en el sitioweb', 'Controlador usado@funcion que tiene el controlador')->name('nombre de la vista');*/
 
 Route::get('/home', 'HomeController@index')->name('home');
 

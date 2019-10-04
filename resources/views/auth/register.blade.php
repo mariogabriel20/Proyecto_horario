@@ -1,6 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
+
+<?php
+/*
+  if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $lastname = $_POST['lastname'];
+    $rut = $_POST['rut'];
+  }
+  */
+?>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -91,8 +102,8 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Registrarse') }}
+                                <button type="submit" class="btn btn-primary" name="submit">
+                                    {{ __('Registrar') }}
                                 </button>
                             </div>
                         </div>
