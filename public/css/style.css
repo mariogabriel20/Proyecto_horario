@@ -1,7 +1,7 @@
 body{
 	background-image: url(../img/fondo1.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
     background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -17,6 +17,17 @@ div.card{
 	width: 550px;
 	display: block;
 	margin:auto;
+}
+
+#login{
+	background-color: rgba(0,0,0,0.25);
+	border: 8px solid rgba(110,173,194,0.5);
+	border-radius: 2rem;
+	width: 500px;
+}
+
+.div_icon{
+	position: absolute;	
 }
 
 .stylefooter{
@@ -42,58 +53,58 @@ div.card{
 }
 
 .box h1{
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 .box input[type = "rut"],.box input[type = "password"]{
-  background: none;
-  text-align: center;
-  border: 2px solid #3498db;
-  padding: 14px 10px;
-	width: 50%;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
+  	background: none;
+  	text-align: center;
+  	border: 2px solid rgba(250,206,157,1);
+  	padding: 15px 10px;
+	width: 280px;
+	outline: none;
+	color: white;
+	border-radius: 1rem;
+	transition: 0.25s;
 }
 
 .box input[type = "rut"]:focus,.box input[type = "password"]:focus{
-  width: 75%;
+  	width: 300px;
 	display: block;
 	position: relative;
-  border-color: #2ecc71;
+	border-color: #2ecc71;
 }
 
 .box input[type = "submit"]{
-  background: none;
-  text-align: center;
-  border: 2px solid #2ecc71;
-  padding: 14px 40px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-  cursor: pointer;
+  	background: none;
+  	text-align: center;
+  	border: 2px solid rgba(235,235,65,1);
+  	padding: 14px 40px;
+  	outline: none;
+  	color: white;
+  	border-radius: 24px;
+  	transition: 0.25s;
+  	cursor: pointer;
 }
 
 .box input[type = "submit"]:hover{
-  background: #2ecc71;
+	background: #2ecc71;
 }
 
 /* Botones */
 
 .boton{
-		display: block;
-		margin: auto;
-		background-color: #4873D9;
-		color: #ffffff;
-		border-color: #000000;
-		border-radius: 20px;
-		height: 50px;
-		width: 300px;
-		text-align: center;
+	display: block;
+	margin: auto;
+	background-color: #4873D9;
+	color: #ffffff;
+	border-color: #000000;
+	border-radius: 20px;
+	height: 50px;
+	width: 300px;
+	text-align: center;
 }
 
 .boton:hover{
@@ -101,33 +112,50 @@ div.card{
 }
 
 .boton-is{
-		position:absolute;
-		right: 12%;
-		background-color: #F5B041;
-		color: #ffffff;
-		border-radius: 10px;
+	position:absolute;
+	right: 12%;
+	background-color: #F5B041;
+	color: #ffffff;
+	border-radius: 10px;
 }
 
 .boton-is2{
-		color: #ffffff;
-		margin-left: 10px;
-		margin-right: 10px;
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .btn-hrs{
-	background-color: #589B45;
+	/*background-color: #589B45;
 	color: #ffffff;
 	width: 200px;
-	margin: auto;
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;*/
+	display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
 }
 
 .btn-hrs:hover {
-background: #434343;
-letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
+	/*background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;*/
+	color:#000000;
+ background-color:#FFFFFF;
 }
 
 /* Estilo imagen hr. especial*/
@@ -155,7 +183,7 @@ td{
 
 th{
 	border: 1px solid black;
-  border-color: #F5B041;
+  	border-color: #F5B041;
 }
 
 table.a{

@@ -16,18 +16,18 @@
         <!-- Fin Css -->
 
         <title>Reserva de laboratorios</title>
-	       <br><br>
+	       <br><br><br>
 
 
 	        <div align="center">
 		          <a><img class="container center-block" style="width:300px; height:100px;" src="../img/logo.png"></a>
-	        </div>
+            </div>
+            
+            <br>
 
-	        <br><br><br>
+            <div align="center"><h3 style="color: white;font-family: 'Homer Simpson', cursive;">Ingeniería Civil en Informática</h3></div>
 
-	         <nav class="navbar"></nav>
-
-
+            <br><br>
 
     </head>
 
@@ -36,7 +36,7 @@
 
       	@yield('content')
 
-        <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
 
 			<footer>
 				<div>

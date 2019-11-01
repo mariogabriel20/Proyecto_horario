@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-     /*A donde redigirá al iniciar sesión*/
+     /*A donde redirigirá al iniciar sesión*/
     protected $redirectTo = '/home';
 
     /**

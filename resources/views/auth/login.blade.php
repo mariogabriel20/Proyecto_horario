@@ -5,16 +5,22 @@
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <div style="">
-                <div class="card-header text-center" style="color: #ffffff;"> Inicio de sesión </div>
 
-                <div class="card-body box">
+                <br>
+
+                <div class="card-body box" id="login">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="form-group">
 
+                            <div class="card-header text-center" style="color: #ffffff;width: 300px;margin: auto;border: 2px solid rgba(238,134,17,1);border-radius: 1rem;"> Inicio de sesión </div>
+
+                            <br><br>
+
                             <div>
-                                <input id="rut" type="rut" class="form-control d-block mx-auto" name="rut" placeholder="Rut" value="{{ old('rut') }}" required autocomplete="rut">
+                                <div class="div_icon"><img src="img/icon_user.png" id="icon_user"></div>
+                                <div class="div_input"><input id="rut" type="rut" class="form-control d-block mx-auto" name="rut" placeholder="Rut" value="{{ old('rut') }}" required autocomplete="rut"></div>
 
                                 @error('rut')
                                     <span class="invalid-feedback" role="alert">
@@ -22,12 +28,12 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>
 
-                        <div class="form-group">
+                            <br>
 
                             <div>
-                                <input id="password" type="password" class="form-control d-block mx-auto" name="password" placeholder="Contraseña" required autocomplete="current-password">
+                                <div class="div_icon"><img src="img/icon_pass.png" align="middle" id="icon_pass"></div>
+                                <div class="div_input"><input id="password" type="password" class="form-control d-block mx-auto" name="password" placeholder="Contraseña" required autocomplete="current-password"></div>
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -36,16 +42,11 @@
                                 @enderror
                             </div>
                         </div>
-
-
+                        <br>
 
                         <div class="form-group">
-                            <div class="">
+                            <div>
                                 <input type="submit" class=" d-block mx-auto" style="width: 280px;">
-                                    {{ __('Login') }}
-                                </input>
-
-
                             </div>
                         </div>
                     </form>

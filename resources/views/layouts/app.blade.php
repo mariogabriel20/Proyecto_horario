@@ -12,7 +12,7 @@
 
       <!-- Scripts -->
       <script src="{{ asset('js/app.js') }}" defer></script>
-            <script async custom-element="amp-date-picker" src="https://cdn.ampproject.org/v0/amp-date-picker-0.1.js"></script>
+      <script async custom-element="amp-date-picker" src="https://cdn.ampproject.org/v0/amp-date-picker-0.1.js"></script>
 
       <!-- Fonts -->
       <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -42,9 +42,9 @@
                       <a class="dropdown-item" style="color: #ffffff;" href="{{route('home')}}">Home</a>
 
                       <a class="dropdown-item"  style="color: #ffffff;"href="{{ route('logout') }}"
-                         onclick="event.preventDefault();
-                                       document.getElementById('logout-form').submit();">
-                          {{ __('Desconectarse') }}
+                        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        {{ __('Desconectarse') }}
                       </a>
 
 

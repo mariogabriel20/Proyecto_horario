@@ -12,10 +12,15 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    function test_inicio()
     {
         $response = $this->get('/');
 
         $response->assertStatus(200);
     }
+
+    function test_home_nolog(){
+        $this->get('/home')->assertStatus(302);
+    }
+    
 }
