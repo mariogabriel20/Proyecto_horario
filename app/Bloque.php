@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Lab extends Model
+class Bloque extends Model
 {
     //
 }

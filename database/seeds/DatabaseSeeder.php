@@ -12,9 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run(){
 
         DB::table('users')->truncate();
-        DB::table('labs')->truncate();
+        DB::table('bloques')->truncate();
 
 		$this->call(UserTableSeeder::class);
-        $this->call(LabTableSeeder::class);
+        $this->call(BloqueTableSeeder::class);
 	}
 }

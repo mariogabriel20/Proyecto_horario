@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLabsTable extends Migration
+class CreateBloquesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ class CreateLabsTable extends Migration
      */
     public function up()
     {
-        Schema::create('labs', function (Blueprint $table) {
+        Schema::create('bloques', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string("name")->notnull();
+            $table->integer("bloque")->notnull();
+            $table->string("dia")->notnull();
+            $table->string("labName")->notnull();
             $table->integer("availability")->notnull();
             $table->timestamps();
         });
@@ -28,6 +30,6 @@ class CreateLabsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('labs');
+        Schema::dropIfExists('bloques');
     }
 }

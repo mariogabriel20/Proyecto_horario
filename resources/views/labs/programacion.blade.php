@@ -118,7 +118,7 @@
 		}
 		else{
 			$('#'+id).html('Disponible');
-	      	$('#'+id).css('background-color','#589B45');
+	      	$('#'+id).css('background-color','#FFFFFF');
 	    }
     });
 </script>
